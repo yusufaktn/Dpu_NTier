@@ -1,0 +1,18 @@
+﻿using EntiityLayer.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BusinessLayer.DTOs.Odalar
+{
+    public class OdaDTO
+    {
+        public Guid OdaID { get; set; }
+        public string OdaAdı { get; set; }
+        public Guid UserID { get; set; }
+        public string Aciklama { get; set; }
+        public Guid BolumID { get; set; }
+    }
+}

@@ -1,0 +1,13 @@
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\obj\Debug\net9.0\EntiityLayer.csproj.AssemblyReference.cache
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\obj\Debug\net9.0\EntiityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\obj\Debug\net9.0\EntiityLayer.AssemblyInfoInputs.cache
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\obj\Debug\net9.0\EntiityLayer.AssemblyInfo.cs
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\obj\Debug\net9.0\EntiityLayer.csproj.CoreCompileInputs.cache
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\obj\Debug\net9.0\EntiityLayer.sourcelink.json
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\bin\Debug\net9.0\EntiityLayer.deps.json
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\bin\Debug\net9.0\EntiityLayer.dll
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\bin\Debug\net9.0\EntiityLayer.pdb
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\obj\Debug\net9.0\EntiityLayer.dll
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\obj\Debug\net9.0\refint\EntiityLayer.dll
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\obj\Debug\net9.0\EntiityLayer.pdb
+C:\Users\myusu\source\repos\Dpü_N_Tier\EntiityLayer\obj\Debug\net9.0\ref\EntiityLayer.dll

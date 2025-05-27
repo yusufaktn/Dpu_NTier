@@ -1,0 +1,577 @@
+[
+  {
+    "ContainingType": "ApiLayer.Controllers.Bolum.BolumController",
+    "Method": "GetAllBolumler",
+    "RelativePath": "api/Bolum",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Bolum.BolumController",
+    "Method": "CreateBolum",
+    "RelativePath": "api/Bolum",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createBolumDto",
+        "Type": "BusinessLayer.DTOs.Bolum.CreateBolumDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Bolum.BolumController",
+    "Method": "GetBolumById",
+    "RelativePath": "api/Bolum/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Bolum.BolumController",
+    "Method": "UpdateBolum",
+    "RelativePath": "api/Bolum/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateBolumDto",
+        "Type": "BusinessLayer.DTOs.Bolum.UpdateBolumDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Bolum.BolumController",
+    "Method": "DeleteBolum",
+    "RelativePath": "api/Bolum/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Bolum.BolumController",
+    "Method": "GetBolumByFakulteId",
+    "RelativePath": "api/Bolum/fakulte/{fakulteId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fakulteId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Ders.DersController",
+    "Method": "GetDersler",
+    "RelativePath": "api/Ders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Ders.DersController",
+    "Method": "AddDers",
+    "RelativePath": "api/Ders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDersDto",
+        "Type": "BusinessLayer.DTOs.Dersler.CreateDersDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Ders.DersController",
+    "Method": "GetDersID",
+    "RelativePath": "api/Ders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Ders.DersController",
+    "Method": "UpdateDers",
+    "RelativePath": "api/Ders/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDersDto",
+        "Type": "BusinessLayer.DTOs.Dersler.UpdateDersDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Ders.DersController",
+    "Method": "DeleteDers",
+    "RelativePath": "api/Ders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Fakulte.FakulteController",
+    "Method": "GetAllFakulteler",
+    "RelativePath": "api/Fakulte",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Fakulte.FakulteController",
+    "Method": "CreateFakulte",
+    "RelativePath": "api/Fakulte",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createFakulteDto",
+        "Type": "BusinessLayer.DTOs.Fakulte.CreateFakulteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Fakulte.FakulteController",
+    "Method": "GetFakulteById",
+    "RelativePath": "api/Fakulte/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Fakulte.FakulteController",
+    "Method": "UpdateFakulte",
+    "RelativePath": "api/Fakulte/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateFakulteDto",
+        "Type": "BusinessLayer.DTOs.Fakulte.UpdateFakulteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Fakulte.FakulteController",
+    "Method": "DeleteFakulte",
+    "RelativePath": "api/Fakulte/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Fakulte.FakulteController",
+    "Method": "GetFakulteByUniversiteId",
+    "RelativePath": "api/Fakulte/universite/{universiteId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "universiteId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Kullanici.KullaniciController",
+    "Method": "GetKullanici",
+    "RelativePath": "api/Kullanici",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Kullanici.KullaniciController",
+    "Method": "AddKullanici",
+    "RelativePath": "api/Kullanici",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createKullaniciDto",
+        "Type": "BusinessLayer.DTOs.Kullanici.CreateKullaniciDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Kullanici.KullaniciController",
+    "Method": "GetKullaniciID",
+    "RelativePath": "api/Kullanici/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Kullanici.KullaniciController",
+    "Method": "UpdateKullanici",
+    "RelativePath": "api/Kullanici/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateKullaniciDto",
+        "Type": "BusinessLayer.DTOs.Kullanici.UpdateKullaniciDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Kullanici.KullaniciController",
+    "Method": "DeleteKullanici",
+    "RelativePath": "api/Kullanici/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Kullanici.KullaniciController",
+    "Method": "Login",
+    "RelativePath": "api/Kullanici/login/{email}/{password}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Mesaj.MesajController",
+    "Method": "GetMesaj",
+    "RelativePath": "api/Mesaj",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Mesaj.MesajController",
+    "Method": "AddMesaj",
+    "RelativePath": "api/Mesaj",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createMesajDto",
+        "Type": "BusinessLayer.DTOs.Mesaj.CreateMesajDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Mesaj.MesajController",
+    "Method": "GetMesajID",
+    "RelativePath": "api/Mesaj/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Mesaj.MesajController",
+    "Method": "UpdateMesaj",
+    "RelativePath": "api/Mesaj/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateMesajDto",
+        "Type": "BusinessLayer.DTOs.Mesaj.UpdateMesajDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Mesaj.MesajController",
+    "Method": "DeleteMesaj",
+    "RelativePath": "api/Mesaj/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Mesaj.MesajController",
+    "Method": "GetByOdaID",
+    "RelativePath": "api/Mesaj/GetByOdaID/{odaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "odaId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Mesaj.MesajController",
+    "Method": "GetByUserID",
+    "RelativePath": "api/Mesaj/GetByUserID/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Oda.OdaController",
+    "Method": "GetOda",
+    "RelativePath": "api/Oda",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Oda.OdaController",
+    "Method": "AddOda",
+    "RelativePath": "api/Oda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createOdaDto",
+        "Type": "BusinessLayer.DTOs.Odalar.CreateOdaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Oda.OdaController",
+    "Method": "GetOdaID",
+    "RelativePath": "api/Oda/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Oda.OdaController",
+    "Method": "UpdateOda",
+    "RelativePath": "api/Oda/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateOdaDto",
+        "Type": "BusinessLayer.DTOs.Odalar.UpdateOdaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Oda.OdaController",
+    "Method": "DeleteOda",
+    "RelativePath": "api/Oda/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiLayer.Controllers.Oda.OdaController",
+    "Method": "GetByBolumID",
+    "RelativePath": "api/Oda/GetOdaByBolumID{bolumId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bolumId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
